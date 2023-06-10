@@ -70,7 +70,9 @@ const Profile = () => {
           </button>
         )}
       </div>
+      <div className='title'>
       {responseText && <p className="response">{JSON.parse(responseText).emotion}</p>}
+      </div>
     </div>
   );
 };
