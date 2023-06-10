@@ -48,9 +48,11 @@ export const IPhone11ProX1: FC<Props> = memo(function IPhone11ProX1(props = {}) 
           <ContainerIcon className={classes.icon} />
         </div>
       </div>
+      <a href='/not'><button>
       <div className={classes.shoppingBag}>
         <ShoppingBagIcon className={classes.icon2} />
       </div>
+      </button></a>
       <div className={classes.ellipse3911}>
         <Ellipse3911Icon className={classes.icon3} />
       </div>
@@ -69,9 +71,11 @@ export const IPhone11ProX1: FC<Props> = memo(function IPhone11ProX1(props = {}) 
         <button className={classes.frame3859}>
           <div className={classes.chatWithACounselorAnonymously}>Chat with a counselor Anonymously</div>
         </button>
+        <a href='/journal'>
         <button className={classes.frame3858}>
           <div className={classes.dailyJournal}>Daily Journal</div>
         </button>
+        </a>
         <div className={classes.bengalKittenIsolated2}></div>
         <div className={classes.ellipse3917}>
           <Ellipse3917Icon className={classes.icon6} />
