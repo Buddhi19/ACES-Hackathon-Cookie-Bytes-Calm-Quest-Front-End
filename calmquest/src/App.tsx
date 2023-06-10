@@ -5,6 +5,7 @@ import resets from './components/_resets.module.css';
 import { IPhone11ProX1 } from './components/IPhone11ProX1/IPhone11ProX1';
 import Profile from './components/camera/cam';
 import {BrowserRouter as Router,Route, Link,Routes} from 'react-router-dom';
+import { IPhone11ProX2 } from './components/IPhone11ProX2/IPhone11ProX2';
 
 interface Props {
   className?: string;
@@ -14,7 +15,8 @@ export const App: FC<Props> = memo(function App(props = {}) {
     <Router>
     <div className={`${resets.clapyResets} ${classes.root}`}>
       <Routes>
-        <Route path="/" element={<IPhone11ProX1/>}/>
+        <Route path="/" element={<IPhone11ProX2/>}/>
+        <Route path="/home" element={<IPhone11ProX1/>}/>
         <Route path="/cam" element={<Profile/>}/>
       </Routes>
     </div>
