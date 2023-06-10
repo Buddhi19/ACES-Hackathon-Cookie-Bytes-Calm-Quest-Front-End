@@ -7,6 +7,7 @@ const WebcamComponent = () => <Webcam />;
 
 const Profile = () => {
   const [picture, setPicture] = useState('');
+  const [responseText, setResponseText] = useState('');
 
   const webcamRef = React.useRef(null);
 
@@ -15,16 +16,20 @@ const Profile = () => {
     console.log(pictureSrc);
 
     try {
-      // Post the captured image to the specified URL
-      const formData=new FormData();
-      
-      formData.append("face",pictureSrc);
+      const formData = new FormData();
+      formData.append('face', pictureSrc);
+
       const response = await axios.post('http://192.168.1.11:5000/emotion', formData, {
         headers: {
-          "Content-Type": "multipart/form-data"
-        },})
+          'Content-Type': 'multipart/form-data'
+        }
+      });
+
       console.log('Image successfully posted');
-      console.log(response.data); // handle the response as needed
+      console.log(response.data);
+
+      // Set the response data in the state
+      setResponseText(JSON.stringify(response.data));
     } catch (error) {
       console.error('Failed to post image:', error);
     }
@@ -32,6 +37,7 @@ const Profile = () => {
 
   const handleRetake = () => {
     setPicture('');
+    setResponseText('');
   };
 
   return (
@@ -54,12 +60,17 @@ const Profile = () => {
       <div className="button-container">
         {picture !== '' ? (
           <>
-            <button className="button" onClick={handleRetake}>Retake</button>
+            <button className="button" onClick={handleRetake}>
+              Retake
+            </button>
           </>
         ) : (
-          <button className="button" onClick={capture}>Capture</button>
+          <button className="button" onClick={capture}>
+            Capture
+          </button>
         )}
       </div>
+      {responseText && <p className="response">{JSON.parse(responseText).emotion}</p>}
     </div>
   );
 };
