@@ -12,28 +12,17 @@ import { Ellipse3919Icon } from './Ellipse3919Icon';
 import { Ellipse3920Icon } from './Ellipse3920Icon';
 import { Ellipse3921Icon } from './Ellipse3921Icon';
 import { HomeIcon } from './HomeIcon';
-import classes from './IPhone11ProX4.module.css';
+import classes from './IPhone11ProX5.module.css';
+import { MapPinIcon } from './MapPinIcon';
 import { ShoppingBagIcon } from './ShoppingBagIcon';
 import { UserIcon } from './UserIcon';
 import { VectorIcon } from './VectorIcon';
-import { ChangeEvent, useState } from "react";
 
 interface Props {
   className?: string;
 }
-/* @figmaId 310:49 */
-export const IPhone11ProX4: FC<Props> = memo(function IPhone11ProX4(props = {}) {
-  const [inputText, setInputText] = useState("");
-  const [InputText1,setInputText1]=useState("");
-
-  const handleChange = (e: ChangeEvent<HTMLInputElement>) => {
-    setInputText(e.target.value);
-
-  };
-  
-  const handleChange1=(e: ChangeEvent<HTMLInputElement>)=>{
-    setInputText1(e.target.value);
-  };
+/* @figmaId 312:18 */
+export const IPhone11ProX5: FC<Props> = memo(function IPhone11ProX5(props = {}) {
   return (
     <div className={`${resets.clapyResets} ${classes.root}`}>
       <div className={classes.helloPraveen}>Hello, Praveen!</div>
@@ -84,17 +73,6 @@ export const IPhone11ProX4: FC<Props> = memo(function IPhone11ProX4(props = {}) 
           <div className={classes.chatWithACounselorAnonymously}>Chat with a counselor Anonymously</div>
         </div>
       </div>
-      <div className={classes.frame3864}>
-        <div className={classes.frame3861}>
-          <div className={classes.helpAFriend}>Help a Friend</div>
-        </div>
-        <div className={classes.frame3863}>
-          <div className={classes.consultation}>Consultation</div>
-        </div>
-      </div>
-      <div className={classes.frame38642}>
-        <div className={classes.submit}>Submit</div>
-      </div>
       <div className={classes.frame3868}>
         <div className={classes.user}>
           <UserIcon className={classes.icon11} />
@@ -108,24 +86,36 @@ export const IPhone11ProX4: FC<Props> = memo(function IPhone11ProX4(props = {}) 
         </div>
         <div className={classes.rectangle3765}></div>
       </div>
-      <div className={classes.frame3862}>
-        <div className={classes.yourAppointments}>Your Appointments</div>
-      </div>
-      <div className={classes.frame3869}>
-        <div className={classes.enterYourFriendSName}><input type="text" onChange={handleChange} value={inputText} placeholder="Enter Your Friend's Name"/></div>
-      </div>
-      <div className={classes.frame3871}>
-        <div className={classes.ifYouBecomeAwareThatYourFriend}>
-          <div className={classes.textBlock}>If you become aware that </div>
-          <div className={classes.textBlock2}>your friend may be experiencing </div>
-          <div className={classes.textBlock3}>symptoms of a mental illness, we strongly </div>
-          <div className={classes.textBlock4}>encourage you to prioritize their well-being and inform us.</div>
+      <div className={classes.frame3864}>
+        <div className={classes.frame3862}>
+          <div className={classes.yourAppointments}>Your Appointments</div>
+        </div>
+        <div className={classes.frame3861}>
+          <div className={classes.helpAFriend}>Help a Friend</div>
+        </div>
+        <div className={classes.frame3863}>
+          <div className={classes.yourCounselor}>Your Counselor</div>
         </div>
       </div>
-      <div className={classes.frame3870}>
-        <div className={classes.enterYourFriendSRegistrationNu}><input type="text" onChange={handleChange1} value={InputText1} placeholder="Friend's E number"/></div>
+      <div className={classes.frame38642}>
+        <div className={classes.changeYourCounselor}>Change your Counselor</div>
       </div>
-      <div className={classes.rectangle37652}></div>
+      <div className={classes.frame3866}>
+        <div className={classes.rectangle3764}></div>
+        <div className={classes.frame38582}>
+          <div className={classes.drWatson}>Dr. Watson </div>
+          <div className={classes.generalHospitalPeradeniya}>General Hospital, Peradeniya</div>
+          <div className={classes.frame3865}>
+            <div className={classes.mapPin}>
+              <MapPinIcon className={classes.icon14} />
+            </div>
+            <div className={classes._10km}>10km</div>
+          </div>
+          <div className={classes.frame38583}>
+            <div className={classes.contact}>Contact</div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 });

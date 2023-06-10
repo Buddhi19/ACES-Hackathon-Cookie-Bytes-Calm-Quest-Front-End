@@ -212,14 +212,14 @@
 }
 .bengalKittenIsolated2 {
   position: absolute;
-  left: 209.966px;
-  top:  25.9398px;
-  width: 120px;
-  height: 160px;
+  left: 139.966px;
+  top: -11.9398px;
+  width: 248px;
+  height: 330px;
   background-image:/* webpackIgnore: true */ url('assets/bengalKittenIsolated2.png');
-  background-size: 120px;
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 .ellipse3917 {
   position: absolute;
@@ -259,8 +259,8 @@
 }
 .ellipse3921 {
   position: absolute;
-  left: 216px;
-  top: 167.5933px;
+  left: 213px;
+  top: 170.5933px;
   width: 7px;
   height: 7px;
   overflow: visible;
@@ -309,72 +309,6 @@
   flex-direction: column;
   transform: matrix(1, 0, 0, 1, 0, 0);
 }
-.frame3864 {
-  position: absolute;
-  left: 144px;
-  top: 326px;
-  width: 367.9067px;
-  height: 40.0807px;
-  align-items: flex-start;
-  gap: 10px;
-}
-.frame3861 {
-  width: min-content;
-  height: min-content;
-  padding: 10px;
-  border-radius: 10px;
-  background-color: #818af9;
-}
-.helpAFriend {
-  color: #fff;
-  font-size: 12px;
-  font-weight: bold;
-  font-family: Manrope, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
-  width: min-content;
-  height: min-content;
-  white-space: nowrap;
-  flex-direction: column;
-}
-.frame3863 {
-  width: min-content;
-  height: min-content;
-  padding: 10px;
-  border-radius: 10px;
-  background-color: #f6f6f6;
-}
-.consultation {
-  color: #3f3e3f4d;
-  font-size: 12px;
-  font-weight: bold;
-  font-family: Manrope, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
-  width: min-content;
-  height: min-content;
-  white-space: nowrap;
-  flex-direction: column;
-}
-.frame38642 {
-  position: absolute;
-  left: 157px;
-  top: 589.0001px;
-  width: min-content;
-  height: min-content;
-  padding: 10px;
-  border-radius: 10px;
-  background-color: #818af9;
-}
-.submit {
-  color: #fff;
-  font-size: 12px;
-  font-weight: bold;
-  font-family: Manrope, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
-  width: min-content;
-  height: min-content;
-  white-space: nowrap;
-  flex-direction: column;
-}
 .frame3868 {
   position: absolute;
   left: 0;
@@ -410,8 +344,8 @@
   position: absolute;
   left: 47.7333%;
   right: 47.4667%;
-  top: 40.7896%;
-  bottom: 35.5262%;
+  top: 42.1053%;
+  bottom: 34.2104%;
   overflow: visible;
 }
 .icon12 {
@@ -441,20 +375,24 @@
   background-repeat: no-repeat;
   background-size: auto;
 }
-.frame3862 {
-  transform-origin: top left;
+.frame3864 {
   position: absolute;
-  left: 0px;
-  top: 326px;
+  left: 12px;
+  top: 327px;
+  width: 358px;
+  height: 40px;
+  align-items: flex-start;
+  gap: 10px;
+}
+.frame3862 {
   width: min-content;
   height: min-content;
   padding: 10px;
   border-radius: 10px;
   background-color: #f6f6f6;
-  transform: matrix(1, 0, 0, 1, 0, 0);
 }
 .yourAppointments {
-  color: #3f3e3f4d;
+  color: #5c59595e;
   font-size: 12px;
   font-weight: bold;
   font-family: Manrope, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
@@ -464,19 +402,14 @@
   white-space: nowrap;
   flex-direction: column;
 }
-.frame3869 {
-  transform-origin: top left;
-  position: absolute;
-  left: 101px;
-  top: 473px;
+.frame3861 {
   width: min-content;
   height: min-content;
   padding: 10px;
   border-radius: 10px;
-  background-color: #cccdd76e;
-  transform: matrix(1, 0, 0, 1, 0, 0);
+  background-color: #f6f6f6;
 }
-.enterYourFriendSName {
+.helpAFriend {
   color: #3f3e3f4d;
   font-size: 12px;
   font-weight: bold;
@@ -487,94 +420,132 @@
   white-space: nowrap;
   flex-direction: column;
 }
-.frame3871 {
+.frame3863 {
+  width: min-content;
+  height: min-content;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #818af9;
+}
+.yourCounselor {
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: Manrope, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.frame38642 {
+  position: absolute;
+  left: 110px;
+  top: 579.0001px;
+  width: min-content;
+  height: min-content;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #818af9;
+}
+.changeYourCounselor {
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: Manrope, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.frame3866 {
   transform-origin: top left;
   position: absolute;
-  left: 10px;
-  top: 385px;
-  width: 354px;
-  height: 67px;
-  place-content: center;
+  left: 22px;
+  top: 401px;
+  width: 335px;
+  height: min-content;
   align-items: center;
-  padding: 10px;
-  border-radius: 10px;
-  background-color: #ffffff6e;
+  gap: 20px;
+  padding: 20px;
+  border-radius: 14px;
+  background-color: #fff;
+  box-shadow: 0px 2px 30px 0px #35385a1f;
   transform: matrix(1, 0, 0, 1, 0, 0);
 }
-.ifYouBecomeAwareThatYourFriend {
-  width: min-content;
-  height: min-content;
-  text-align: center;
-  align-items: center;
-  white-space: nowrap;
-  flex-direction: column;
-}
-.textBlock {
-  color: #4b6fefb5;
-  font-size: 10px;
-  font-weight: bold;
-  font-family: Manrope, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
-}
-.textBlock2 {
-  margin-top: 0;
-  color: #4b6fefb5;
-  font-size: 10px;
-  font-weight: bold;
-  font-family: Manrope, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
-}
-.textBlock3 {
-  margin-top: 0;
-  color: #4b6fefb5;
-  font-size: 10px;
-  font-weight: bold;
-  font-family: Manrope, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
-}
-.textBlock4 {
-  margin-top: 0;
-  color: #4b6fefb5;
-  font-size: 10px;
-  font-weight: bold;
-  font-family: Manrope, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
-}
-.frame3870 {
-  transform-origin: top left;
-  position: absolute;
-  left: 130px;
-  top: 532.0001px;
-  width: 120px;
-  height: 34px;
-  align-items: flex-start;
-  padding: 10px;
-  border-radius: 10px;
-  background-color: #cccdd76e;
-  transform: matrix(1, 0, 0, 1, 0, 0);
-}
-.enterYourFriendSRegistrationNu {
-  color: #3f3e3f4d;
-  font-size: 12px;
-  font-weight: bold;
-  font-family: Manrope, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
-  width: min-content;
-  height: min-content;
-  white-space: nowrap;
-  flex-direction: column;
-}
-.rectangle37652 {
-  transform-origin: top left;
-  position: absolute;
-  left: 132px;
-  top: 636.0001px;
-  width: 107px;
-  height: 100px;
-  border-radius: 11px;
-  background-image:/* webpackIgnore: true */ url('assets/rectangle3765.jpeg');
+.rectangle3764 {
+  width: 88px;
+  height: 103px;
+  border-radius: 8px;
+  background-image:/* webpackIgnore: true */ url('assets/rectangle3764.jpeg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+.frame38582 {
+  width: min-content;
+  height: min-content;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 7px;
+}
+.drWatson {
+  color: #3f3e3f;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: Manrope, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.generalHospitalPeradeniya {
+  color: #000;
+  font-size: 12px;
+  font-family: Manrope, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.frame3865 {
+  width: min-content;
+  height: min-content;
+  align-items: center;
+  gap: 7px;
+}
+.mapPin {
+  width: 14px;
+  height: 14px;
+}
+.icon14 {
+  width: 100%;
+  height: 100%;
+}
+._10km {
+  color: #aca3a3;
+  font-size: 12px;
+  font-family: Manrope, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.frame38583 {
+  width: min-content;
+  height: min-content;
+}
+.contact {
+  color: #50cc98;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: Manrope, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 146px;
+  height: min-content;
+  flex-direction: column;
 }
