@@ -12,16 +12,23 @@ import { Ellipse3919Icon } from './Ellipse3919Icon';
 import { Ellipse3920Icon } from './Ellipse3920Icon';
 import { Ellipse3921Icon } from './Ellipse3921Icon';
 import { HomeIcon } from './HomeIcon';
-import classes from './IPhone11ProX3.module.css';
+import classes from './IPhone11ProX4.module.css';
 import { ShoppingBagIcon } from './ShoppingBagIcon';
 import { UserIcon } from './UserIcon';
 import { VectorIcon } from './VectorIcon';
+import { ChangeEvent, useState } from "react";
 
 interface Props {
   className?: string;
 }
-/* @figmaId 308:101 */
-export const IPhone11ProX3: FC<Props> = memo(function IPhone11ProX3(props = {}) {
+/* @figmaId 310:49 */
+export const IPhone11ProX4: FC<Props> = memo(function IPhone11ProX4(props = {}) {
+  const [inputText, setInputText] = useState("Enter your friends name..");
+
+  const handleChange = (e: ChangeEvent<HTMLInputElement>) => {
+    // 👇 Store the input value to local state
+    setInputText(e.target.value);
+  };
   return (
     <div className={`${resets.clapyResets} ${classes.root}`}>
       <div className={classes.helloPraveen}>Hello, Praveen!</div>
@@ -68,39 +75,20 @@ export const IPhone11ProX3: FC<Props> = memo(function IPhone11ProX3(props = {}) 
         <div className={classes.ellipse3920}>
           <Ellipse3920Icon className={classes.icon10} />
         </div>
+        <div className={classes.frame3859}>
+          <div className={classes.chatWithACounselorAnonymously}>Chat with a counselor Anonymously</div>
+        </div>
       </div>
       <div className={classes.frame3864}>
-        <a href='/home'><button>
-        <div className={classes.frame38582}>
-          <div className={classes.shareYourMood}>Share Your Mood</div>
-        </div>
-        </button></a>
-        <div className={classes.frame3862}>
-          <div className={classes.yourAppointments}>Your Appointments</div>
-        </div>
-        <a href='/help'><button>
         <div className={classes.frame3861}>
           <div className={classes.helpAFriend}>Help a Friend</div>
         </div>
-        </button></a>
         <div className={classes.frame3863}>
           <div className={classes.consultation}>Consultation</div>
         </div>
       </div>
       <div className={classes.frame38642}>
-        <div className={classes._930AM}>9:30 a.m</div>
-        <div className={classes.online}>Online</div>
-        <div className={classes._202369}>2023/06/09</div>
-      </div>
-      <div className={classes.frame3869}>
-        <div className={classes._1130AM}>11:30 a.m</div>
-        <div className={classes.physicalEOE}>Physical/EOE</div>
-        <div className={classes._2023619}>2023/06/19</div>
-      </div>
-      <div className={classes.frame3870}>
-        <div className={classes._930AM2}>9:30 a.m</div>
-        <div className={classes.online2}>Online</div>
-        <div className={classes._2023627}>2023/06/27</div>
+        <div className={classes.submit}>Submit</div>
       </div>
       <div className={classes.frame3868}>
         <div className={classes.user}>
@@ -115,9 +103,24 @@ export const IPhone11ProX3: FC<Props> = memo(function IPhone11ProX3(props = {}) 
         </div>
         <div className={classes.rectangle3765}></div>
       </div>
-      <div className={classes.frame3859}>
-        <div className={classes.chatWithACounselorAnonymously}>Chat with a counselor Anonymously</div>
+      <div className={classes.frame3862}>
+        <div className={classes.yourAppointments}>Your Appointments</div>
       </div>
+      <div className={classes.frame3869}>
+        <div className={classes.enterYourFriendSName}>Enter your friend’s name...</div>
+      </div>
+      <div className={classes.frame3871}>
+        <div className={classes.ifYouBecomeAwareThatYourFriend}>
+          <div className={classes.textBlock}>If you become aware that </div>
+          <div className={classes.textBlock2}>your friend may be experiencing </div>
+          <div className={classes.textBlock3}>symptoms of a mental illness, we strongly </div>
+          <div className={classes.textBlock4}>encourage you to prioritize their well-being and inform us.</div>
+        </div>
+      </div>
+      <div className={classes.frame3870}>
+        <div className={classes.enterYourFriendSRegistrationNu}>Enter your friend’s registration number...</div>
+      </div>
+      <div className={classes.rectangle37652}></div>
     </div>
   );
 });

@@ -93,9 +93,11 @@ export const IPhone11ProX1: FC<Props> = memo(function IPhone11ProX1(props = {}) 
         <div className={classes.frame38582}>
           <div className={classes.shareYourMood}>Share Your Mood</div>
         </div>
+        <a href='/appoinments'><button>
         <div className={classes.frame3862}>
           <div className={classes.yourAppointments}>Your Appointments</div>
         </div>
+        </button></a>
         <div className={classes.frame3861}>
           <div className={classes.helpAFriend}>Help a Friend</div>
         </div>
