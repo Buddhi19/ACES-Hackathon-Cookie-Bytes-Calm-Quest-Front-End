@@ -1,0 +1,529 @@
+.frame3869.frame3869 {
+  left: 12.863px;
+  top: 619.2353px;
+}
+.howAreYouFeelingToday {
+  color: #3f3e3f;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: Manrope, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.great {
+  color: #3f3e3f4d;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: Manrope, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.excited {
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: Manrope, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.root {
+  position: relative;
+  width: 375px;
+  height: 812px;
+  align-items: flex-start;
+  border-radius: 40px;
+  background-color: #fff;
+  overflow: hidden;
+  box-shadow: 10px 40px 40px 0px #818af93b;
+}
+.helloPraveen {
+  color: #3f3e3f;
+  font-size: 24px;
+  line-height: 150%;
+  font-weight: 800;
+  font-family: Manrope, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 20px;
+  top: 66.4067px;
+  width: min-content;
+  height: min-content;
+  text-shadow: 0px 12.521552085876465px 11.649897575378418px #6154aa11, 0px 100px 80px #6154aa21;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.iosStatusBarBlack {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 375px;
+  height: 44px;
+  align-items: flex-start;
+}
+.Time {
+  background-image: linear-gradient(108.7deg, #171c24ff 0%, #28323fff 100%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 15px;
+  line-height: 18px;
+  font-weight: 600;
+  font-family: Nunito Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.165px;
+  position: absolute;
+  left: 19.8939px;
+  top: calc(50% - -1px);
+  width: 54px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateY(-50%);
+}
+.container {
+  position: absolute;
+  left: 293.5px;
+  top: 17.16px;
+  width: 67px;
+  height: 11.5px;
+  overflow: visible;
+}
+.icon {
+  width: 100%;
+  height: 100%;
+}
+.shoppingBag {
+  position: absolute;
+  left: 336px;
+  top: 72.4067px;
+  width: 24px;
+  height: 24px;
+}
+.icon2 {
+  width: 100%;
+  height: 100%;
+}
+.ellipse3911 {
+  position: absolute;
+  left: 351px;
+  top: 68px;
+  width: 13px;
+  height: 13px;
+  overflow: visible;
+}
+.icon3 {
+  width: 100%;
+  height: 100%;
+}
+._2 {
+  color: #fff;
+  font-size: 10px;
+  line-height: 150%;
+  font-weight: 800;
+  font-family: Mplus 1p, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 354.6565px;
+  top: 67.4067px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.frame3860 {
+  position: absolute;
+  left: 20px;
+  top: 119.4067px;
+  width: 336px;
+  height: 184px;
+  align-items: flex-start;
+  border-radius: 14px;
+  background-color: #818af9;
+  overflow: hidden;
+  box-shadow: 0px 12.5216px 10.0172px 0px #6154aa11;
+}
+.ellipse3915 {
+  position: absolute;
+  left: -62.5439px;
+  top: -74.528px;
+  width: 212px;
+  height: 212px;
+  overflow: visible;
+}
+.icon4 {
+  width: 100%;
+  height: 100%;
+}
+.ellipse3916 {
+  position: absolute;
+  left: 180px;
+  top: -12px;
+  width: 278px;
+  height: 278px;
+  overflow: visible;
+}
+.icon5 {
+  width: 100%;
+  height: 100%;
+}
+.hopeYouHaveAWonderfulDay {
+  color: #fff;
+  font-size: 14px;
+  line-height: 150%;
+  font-weight: 800;
+  font-family: Manrope, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 22px;
+  top: 34px;
+  width: 149px;
+  height: min-content;
+  flex-direction: column;
+}
+.frame3857 {
+  position: absolute;
+  left: 21px;
+  top: 115.5933px;
+  width: 112.5499px;
+  height: 16.2525px;
+  place-content: center;
+  align-items: center;
+  padding: 10px;
+  outline: solid 2px #ffffff1f;
+  outline-offset: -2px;
+  border-radius: 10px;
+  background-color: #fff6;
+  transition-duration: 0.4s;
+}
+.frame3857:hover{
+  background-color: #5341de; /* Green */
+  color: white;
+}
+.talkToACounselor {
+  color: #fff;
+  font-size: 10px;
+  font-weight: bold;
+  font-family: Manrope, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  z-index: 0;
+  width: 90.247px;
+  height: 13.579px;
+  flex-direction: column;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+.frame3859 {
+  position: absolute;
+  left: 21px;
+  top: 146.5933px;
+  width: 186px;
+  height: 17px;
+  place-content: center;
+  align-items: center;
+  padding: 10px;
+  outline: solid 2px #ffffff1f;
+  outline-offset: -2px;
+  border-radius: 10px;
+  background-color: #fff6;
+  transition-duration: 0.4s;
+}
+.frame3859:hover{
+  background-color: #5341de; /* Green */
+  color: white;
+}
+.chatWithACounselorAnonymously {
+  color: #fff;
+  font-size: 10px;
+  font-weight: bold;
+  font-family: Manrope, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  z-index: 0;
+  width: 184px;
+  height: 13px;
+  flex-direction: column;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+.frame3858 {
+  position: absolute;
+  left: 24.5518px;
+  top: 85.49px;
+  width: 82.6092px;
+  height: 14.8567px;
+  place-content: center;
+  align-items: center;
+  padding: 10px;
+  outline: solid 2px #ffffff1f;
+  outline-offset: -2px;
+  border-radius: 10px;
+  background-color: #fff6;
+  transition-duration: 0.4s;
+}
+.frame3858:hover{
+  background-color: #5341de; /* Green */
+  color: white;
+}
+.dailyJournal {
+  color: #fff;
+  font-size: 10px;
+  font-weight: bold;
+  font-family: Manrope, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  z-index: 0;
+  width: 66.7477px;
+  height: 19.6502px;
+  flex-direction: column;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+.bengalKittenIsolated2 {
+  position: absolute;
+  left: 209.966px;
+  top:  25.9398px;
+  width: 120px;
+  height: 160px;
+  background-image:/* webpackIgnore: true */ url('assets/bengalKittenIsolated2.png');
+  background-size: 120px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.ellipse3917 {
+  position: absolute;
+  left: 186px;
+  top: 123px;
+  width: 12px;
+  height: 12px;
+  overflow: visible;
+}
+.icon6 {
+  width: 100%;
+  height: 100%;
+}
+.ellipse3918 {
+  position: absolute;
+  left: 267px;
+  top: 20px;
+  width: 7px;
+  height: 7px;
+  overflow: visible;
+}
+.icon7 {
+  width: 100%;
+  height: 100%;
+}
+.ellipse3919 {
+  position: absolute;
+  left: 315.8403px;
+  top: 139.3073px;
+  width: 9px;
+  height: 9px;
+  overflow: visible;
+}
+.icon8 {
+  width: 100%;
+  height: 100%;
+}
+.ellipse3921 {
+  position: absolute;
+  left: 218px;
+  top: 163.5932px;
+  width: 7px;
+  height: 7px;
+  overflow: visible;
+}
+.icon9 {
+  width: 100%;
+  height: 100%;
+}
+.ellipse3920 {
+  position: absolute;
+  left: 306px;
+  top: 123px;
+  width: 4px;
+  height: 4px;
+  overflow: visible;
+}
+.icon10 {
+  width: 100%;
+  height: 100%;
+}
+.frame3864 {
+  position: absolute;
+  left: 19.3452px;
+  top: 327.5604px;
+  width: 367.9067px;
+  height: 40.0807px;
+  align-items: flex-start;
+  gap: 10px;
+}
+.frame38582 {
+  width: min-content;
+  height: min-content;
+  padding: 10px;
+  outline: solid 2px #f1e5e538;
+  outline-offset: -2px;
+  border-radius: 10px;
+  background-color: #818af9;
+}
+.shareYourMood {
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: Manrope, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  z-index: 0;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.frame3862 {
+  width: min-content;
+  height: min-content;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #f6f6f6;
+}
+.yourAppointments {
+  color: #3f3e3f4d;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: Manrope, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.frame3861 {
+  width: min-content;
+  height: min-content;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #f6f6f6;
+}
+.helpAFriend {
+  color: #3f3e3f4d;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: Manrope, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.frame3863 {
+  width: min-content;
+  height: min-content;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #f6f6f6;
+}
+.consultation {
+  color: #3f3e3f4d;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: Manrope, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.rectangle3765 {
+  position: absolute;
+  left: 195.695px;
+  top: 658.4497px;
+  width: 118.4229px;
+  height: 107.0863px;
+  border-radius: 11px;
+  background-image:/* webpackIgnore: true */ url('assets/rectangle37652.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.frame3868 {
+  position: absolute;
+  left: 0;
+  top: 736px;
+  width: 375px;
+  height: 76px;
+  align-items: flex-start;
+  border-radius: 45px 45px 0 0;
+  background-color: #fff;
+  overflow: hidden;
+  box-shadow: 0px -10px 30px 0px #00000008;
+}
+.user {
+  position: absolute;
+  left: 320px;
+  top: 26px;
+  width: 24px;
+  height: 24px;
+}
+.icon11 {
+  width: 100%;
+  height: 100%;
+}
+.heart {
+  position: absolute;
+  left: 132px;
+  top: 29px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.messageCircle {
+  position: absolute;
+  left: 239px;
+  top: 29px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.vector {
+  position: absolute;
+  left: 47.7333%;
+  right: 47.4667%;
+  top: 43.4211%;
+  bottom: 32.8947%;
+  overflow: visible;
+}
+.icon12 {
+  width: 100%;
+  height: 100%;
+}
+.home {
+  position: absolute;
+  left: 45px;
+  top: 29px;
+  width: 24px;
+  height: 24px;
+}
+.icon13 {
+  width: 100%;
+  height: 100%;
+}
+.rectangle37652 {
+  position: absolute;
+  left: 51px;
+  top: 56px;
+  width: 12px;
+  height: 2px;
+  border-radius: 5px;
+  background-image: linear-gradient(180deg, #818af9ff 0%, #656bb5ff 100%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
