@@ -1,4 +1,4 @@
-import { memo } from 'react';
+import { memo, useState ,ChangeEvent} from 'react';
 import type { FC } from 'react';
 
 import resets from '../_resets.module.css';
@@ -18,6 +18,7 @@ import { ShoppingBagIcon } from './ShoppingBagIcon';
 import { UserIcon } from './UserIcon';
 import { VectorIcon } from './VectorIcon';
 
+
 interface Props {
   className?: string;
   hide?: {
@@ -27,6 +28,13 @@ interface Props {
 }
 /* @figmaId 1:36 */
 export const IPhone11ProX1: FC<Props> = memo(function IPhone11ProX1(props = {}) {
+  const [inputText,setInputText]=useState("");
+
+  const handleChange = (e: ChangeEvent<HTMLInputElement>) => {
+    setInputText(e.target.value);
+
+  };
+
   return (
     <div className={`${resets.clapyResets} ${classes.root}`}>
       <Frame3866

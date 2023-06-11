@@ -4,18 +4,26 @@ import type { FC } from 'react';
 import resets from '../_resets.module.css';
 import { ContainerIcon } from './ContainerIcon';
 import { HomeIcon } from './HomeIcon';
-import classes from './IPhone11ProX12.module.css';
+import classes from './IPhone11ProX13.module.css';
 import { UserIcon } from './UserIcon';
 import { VectorIcon } from './VectorIcon';
+import { ChangeEvent, useState } from "react";
+
 
 interface Props {
   className?: string;
 }
-/* @figmaId 359:148 */
-export const IPhone11ProX12: FC<Props> = memo(function IPhone11ProX12(props = {}) {
+/* @figmaId 367:77 */
+export const IPhone11ProX13: FC<Props> = memo(function IPhone11ProX13(props = {}) {
+  const [InputText,setInputText]=useState("");
+
+  const handleChange = (e: ChangeEvent<HTMLInputElement>) => {
+    setInputText(e.target.value);
+
+  };
   return (
     <div className={`${resets.clapyResets} ${classes.root}`}>
-      <div className={classes.myJournal}>My Journal</div>
+      <div className={classes._2022611}>2022/06/11</div>
       <div className={classes.iosStatusBarBlack}>
         <div className={classes.Time}>9:41</div>
         <div className={classes.container}>
@@ -35,25 +43,11 @@ export const IPhone11ProX12: FC<Props> = memo(function IPhone11ProX12(props = {}
         </div>
         <div className={classes.rectangle3765}></div>
       </div>
-      <a href='/text'><button>
-      <div className={classes.frame3861}>
-        <div className={classes._2022611}>2022/06/11</div>
-      </div>
-      </button></a>
-      <div className={classes.frame3869}>
-        <div className={classes._2022610}>2022/06/10</div>
-      </div>
-      <div className={classes.frame38612}>
-        <div className={classes._202269}>2022/06/9</div>
-      </div>
-      <div className={classes.frame38613}>
-        <div className={classes._202268}>2022/06/8</div>
-      </div>
-      <div className={classes.frame3870}>
-        <div className={classes._202267}>2022/06/7</div>
-      </div>
       <div className={classes.frame3871}>
-        <div className={classes._202266}>2022/06/6</div>
+        <div className={classes.iFeltSoGoodToday}><input type="text"onChange={handleChange} placeholder="I felt so good today."/></div>
+      </div>
+      <div className={classes.frame3864}>
+        <div className={classes.submit}>Submit</div>
       </div>
     </div>
   );
