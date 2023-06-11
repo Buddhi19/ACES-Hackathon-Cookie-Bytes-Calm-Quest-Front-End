@@ -19,7 +19,7 @@ const Profile = () => {
       const formData = new FormData();
       formData.append('face', pictureSrc);
 
-      const response = await axios.post('http://192.168.1.11:5000/emotion', formData, {
+      const response = await axios.post('http://192.168.252.9:5000/emotion', formData, {
         headers: {
           'Content-Type': 'multipart/form-data'
         }

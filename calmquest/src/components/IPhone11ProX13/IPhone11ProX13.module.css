@@ -154,15 +154,15 @@
   font-family: Manrope, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
     'Liberation Sans', sans-serif;
   width: 292.0001px;
-  height: 350px;
+  height: 300px;
   flex-direction: column;
 }
 .frame3864 {
   transform-origin: top left;
   position: absolute;
-  left: 144px;
+  left: 150px;
   top: 497px;
-  width: 86px;
+  width: 60px;
   height: min-content;
   padding: 10px;
   border-radius: 10px;
@@ -179,4 +179,16 @@
   height: min-content;
   white-space: nowrap;
   flex-direction: column;
+}
+.result{
+  transform-origin: top left;
+  position: absolute;
+  left: 135px;
+  top: 597px;
+  font-size: 20px;
+  font-weight: bold;
+  width: 60px;
+  height: min-content;
+  padding: 10px;
+  border-radius: 10px;
 }
