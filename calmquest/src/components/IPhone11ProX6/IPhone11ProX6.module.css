@@ -1,0 +1,195 @@
+.root {
+  transform-origin: top left;
+  position: relative;
+  width: 375px;
+  height: 812px;
+  align-items: flex-start;
+  border-radius: 40px;
+  background-color: #fff;
+  overflow: hidden;
+  box-shadow: 10px 40px 40px 0px #818af93b;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+.drWatson {
+  color: #3f3e3f;
+  font-size: 24px;
+  line-height: 150%;
+  font-weight: 800;
+  font-family: Manrope, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 20px;
+  top: 66.4067px;
+  width: min-content;
+  height: min-content;
+  text-shadow: 0px 12.521552085876465px 11.649897575378418px #6154aa11, 0px 100px 80px #6154aa21;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.iosStatusBarBlack {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 375px;
+  height: 44px;
+  align-items: flex-start;
+}
+.Time {
+  background-image: linear-gradient(108.7deg, #171c24ff 0%, #28323fff 100%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 15px;
+  line-height: 18px;
+  font-weight: 600;
+  font-family: Nunito Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.165px;
+  position: absolute;
+  left: 19.8939px;
+  top: calc(50% - -1px);
+  width: 54px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateY(-50%);
+}
+.container {
+  position: absolute;
+  left: 293.5px;
+  top: 17.16px;
+  width: 67px;
+  height: 11.5px;
+  overflow: visible;
+}
+.icon {
+  width: 100%;
+  height: 100%;
+}
+.frame3868 {
+  position: absolute;
+  left: 0;
+  top: 736px;
+  width: 375px;
+  height: 76px;
+  align-items: flex-start;
+  border-radius: 45px 45px 0 0;
+  background-color: #fff;
+  overflow: hidden;
+  box-shadow: 0px -10px 30px 0px #00000008;
+}
+.user {
+  position: absolute;
+  left: 320px;
+  top: 26px;
+  width: 24px;
+  height: 24px;
+}
+.icon2 {
+  width: 100%;
+  height: 100%;
+}
+.messageCircle {
+  position: absolute;
+  left: 239px;
+  top: 29px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.vector {
+  position: absolute;
+  left: 47.7333%;
+  right: 47.4667%;
+  top: 43.4211%;
+  bottom: 32.8946%;
+  overflow: visible;
+}
+.icon3 {
+  width: 100%;
+  height: 100%;
+}
+.home {
+  position: absolute;
+  left: 45px;
+  top: 29px;
+  width: 24px;
+  height: 24px;
+}
+.icon4 {
+  width: 100%;
+  height: 100%;
+}
+.rectangle3765 {
+  position: absolute;
+  left: 182px;
+  top: 56px;
+  width: 12px;
+  height: 2px;
+  border-radius: 5px;
+  background-image: linear-gradient(180deg, #5e68c6ff 0%, #adadadff 0%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+.rectangle3764 {
+  transform-origin: top left;
+  position: absolute;
+  left: 0;
+  top: 482px;
+  width: 375px;
+  height: 236px;
+  border-radius: 8px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+.image1 {
+  transform-origin: top left;
+  position: absolute;
+  left: -2px;
+  top: 504px;
+  width: 377px;
+  height: 214px;
+  background-image:/* webpackIgnore: true */ url('assets/image1.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+.image2 {
+  transform-origin: top left;
+  position: absolute;
+  left: 318px;
+  top: 447px;
+  width: 57px;
+  height: 53px;
+  background-image:/* webpackIgnore: true */ url('assets/image2.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+.frame3861 {
+  position: absolute;
+  left: 12px;
+  top: 458px;
+  width: 311px;
+  height: min-content;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #f6f6f6;
+}
+.typeHere {
+  color: #3f3e3f4d;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: Manrope, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}

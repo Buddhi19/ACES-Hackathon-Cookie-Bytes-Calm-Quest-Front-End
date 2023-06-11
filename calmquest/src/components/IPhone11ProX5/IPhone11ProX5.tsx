@@ -12,7 +12,8 @@ import { Ellipse3919Icon } from './Ellipse3919Icon';
 import { Ellipse3920Icon } from './Ellipse3920Icon';
 import { Ellipse3921Icon } from './Ellipse3921Icon';
 import { HomeIcon } from './HomeIcon';
-import classes from './IPhone11ProX3.module.css';
+import classes from './IPhone11ProX5.module.css';
+import { MapPinIcon } from './MapPinIcon';
 import { ShoppingBagIcon } from './ShoppingBagIcon';
 import { UserIcon } from './UserIcon';
 import { VectorIcon } from './VectorIcon';
@@ -20,8 +21,8 @@ import { VectorIcon } from './VectorIcon';
 interface Props {
   className?: string;
 }
-/* @figmaId 308:101 */
-export const IPhone11ProX3: FC<Props> = memo(function IPhone11ProX3(props = {}) {
+/* @figmaId 312:18 */
+export const IPhone11ProX5: FC<Props> = memo(function IPhone11ProX5(props = {}) {
   return (
     <div className={`${resets.clapyResets} ${classes.root}`}>
       <div className={classes.helloPraveen}>Hello, Praveen!</div>
@@ -68,58 +69,54 @@ export const IPhone11ProX3: FC<Props> = memo(function IPhone11ProX3(props = {}) 
         <div className={classes.ellipse3920}>
           <Ellipse3920Icon className={classes.icon10} />
         </div>
-      </div>
-      <div className={classes.frame3864}>
-        <a href='/home'><button>
-        <div className={classes.frame38582}>
-          <div className={classes.shareYourMood}>Share Your Mood</div>
+        <div className={classes.frame3859}>
+          <div className={classes.chatWithACounselorAnonymously}>Chat with a counselor Anonymously</div>
         </div>
-        </button></a>
-        <div className={classes.frame3862}>
-          <div className={classes.yourAppointments}>Your Appointments</div>
-        </div>
-        <a href='/help'><button>
-        <div className={classes.frame3861}>
-          <div className={classes.helpAFriend}>Help a Friend</div>
-        </div>
-        </button></a>
-        <div className={classes.frame3863}>
-          <div className={classes.consultation}>Consultation</div>
-        </div>
-      </div>
-      <div className={classes.frame38642}>
-        <div className={classes._930AM}>9:30 a.m</div>
-        <div className={classes.online}>Online</div>
-        <div className={classes._202369}>2023/06/09</div>
-      </div>
-      <div className={classes.frame3869}>
-        <div className={classes._1130AM}>11:30 a.m</div>
-        <div className={classes.physicalEOE}>Physical/EOE</div>
-        <div className={classes._2023619}>2023/06/19</div>
-      </div>
-      <div className={classes.frame3870}>
-        <div className={classes._930AM2}>9:30 a.m</div>
-        <div className={classes.online2}>Online</div>
-        <div className={classes._2023627}>2023/06/27</div>
       </div>
       <div className={classes.frame3868}>
         <div className={classes.user}>
           <UserIcon className={classes.icon11} />
         </div>
+        <a href='/chat'><button>
         <div className={classes.messageCircle}></div>
         <div className={classes.vector}>
           <VectorIcon className={classes.icon12} />
         </div>
+        </button></a>
         <div className={classes.home}>
           <HomeIcon className={classes.icon13} />
         </div>
         <div className={classes.rectangle3765}></div>
       </div>
-      <div className={classes.frame3859}>
-        <div className={classes.chatWithACounselorAnonymously}>Chat with a counselor Anonymously</div>
+      <div className={classes.frame3864}>
+        <div className={classes.frame3862}>
+          <div className={classes.yourAppointments}>Your Appointments</div>
+        </div>
+        <div className={classes.frame3861}>
+          <div className={classes.helpAFriend}>Help a Friend</div>
+        </div>
+        <div className={classes.frame3863}>
+          <div className={classes.yourCounselor}>Your Counselor</div>
+        </div>
       </div>
-      <div className={classes.frame385912}>
-        <div className={classes.chatWithACounselorAnonymously}>Make a new Appoinment</div>
+      <div className={classes.frame38642}>
+        <div className={classes.changeYourCounselor}>Change your Counselor</div>
+      </div>
+      <div className={classes.frame3866}>
+        <div className={classes.rectangle3764}></div>
+        <div className={classes.frame38582}>
+          <div className={classes.drWatson}>Dr. Watson </div>
+          <div className={classes.generalHospitalPeradeniya}>General Hospital, Peradeniya</div>
+          <div className={classes.frame3865}>
+            <div className={classes.mapPin}>
+              <MapPinIcon className={classes.icon14} />
+            </div>
+            <div className={classes._10km}>10km</div>
+          </div>
+          <div className={classes.frame38583}>
+            <div className={classes.contact}>Contact</div>
+          </div>
+        </div>
       </div>
     </div>
   );

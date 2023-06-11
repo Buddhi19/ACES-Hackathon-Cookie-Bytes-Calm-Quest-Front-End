@@ -342,6 +342,11 @@
   padding: 10px;
   border-radius: 10px;
   background-color: #f6f6f6;
+  transition-duration: 0.4s;
+}
+.frame3863:hover{
+  background-color: #5341de; /* Green */
+  color: white;
 }
 .consultation {
   color: #3f3e3f4d;

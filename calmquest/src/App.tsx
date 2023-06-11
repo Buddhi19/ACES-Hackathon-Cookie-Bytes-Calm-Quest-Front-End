@@ -10,6 +10,8 @@ import { IPhone11ProX3 } from './components/IPhone11ProX3/IPhone11ProX3';
 import { IPhone11ProX4 } from './components/IPhone11ProX4/IPhone11ProX4';
 import { IPhone11ProX12 } from './components/IPhone11ProX12/IPhone11ProX12';
 import { IPhone11ProX7 } from './components/IPhone11ProX7/IPhone11ProX7';
+import { IPhone11ProX5 } from './components/IPhone11ProX5/IPhone11ProX5';
+import { IPhone11ProX6 } from './components/IPhone11ProX6/IPhone11ProX6';
 
 interface Props {
   className?: string;
@@ -26,7 +28,10 @@ export const App: FC<Props> = memo(function App(props = {}) {
         <Route path="/help" element={<IPhone11ProX4/>}/>
         <Route path="/journal" element={<IPhone11ProX12/>}/>
         <Route path="/not" element={<IPhone11ProX7/>}/>
+        <Route path="/doc" element={<IPhone11ProX5/>}/>
+        <Route path="/chat" element={<IPhone11ProX6/>}/>
       </Routes>
+
     </div>
     </Router>
   );
